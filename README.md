@@ -11,7 +11,7 @@ Tus asesores se asegurarán de tener todo actualizado en la rama `main` aunque p
 Basta con ingresar el siguiente comando en la terminal de _git bash_ (se asume que usas Windows, por lo que en la [instalación](https://git-scm.com/install/windows) te habrá permitido usarlo)
 
 ```Bash
-git clone <url_que_sale_arriba_en_tu_navegador>
+git clone https://github.com/erick6aelgg/icc-came-26.git
 ```
 
 Si el repo se encuentra privado, seguramente te pedirá tu cuenta y contraseña.
