@@ -43,7 +43,29 @@ public class Estudiante {
         this.apellidos = apellidos;
     }
 
-    // Otros setters para los demás atributos
+    public void setNumDeCuenta(String numDeCuenta){
+        this.numDeCuenta = numDeCuenta;
+    }
+
+    public void setEdad(int edad){
+        this.edad = edad;
+    }
+
+    public void setCarrera(String carrera){
+        this.carrera = carrera;
+    }
+
+    public void setSemestre(int semestre){
+        this.semestre = semestre;
+    }
+
+    public void setInscrito(boolean inscrito){
+        this.inscrito = inscrito;
+    }
+
+    public void setCalificaciones(int[] calificaciones){
+        this.calificaciones = calificaciones;
+    }
 
     // Getters
     public String getNombre(){
@@ -54,8 +76,29 @@ public class Estudiante {
         return this.apellidos;
     }
 
-    // Otros getters para los demás atributos
+    public String getNumDeCuenta(){
+        return this.numDeCuenta;
+    }
 
+    public int getEdad(){
+        return this.edad;
+    }
+
+    public String getCarrera(){
+        return this.carrera;
+    }
+
+    public int getSemestre(){
+        return this.semestre;
+    }
+
+    public boolean getInscrito(){
+        return this.inscrito;
+    }
+
+    public int[] getCalificaciones(){
+        return this.calificaciones;
+    }
 
     // Métodos adicionales
     public static void presentarse(){
