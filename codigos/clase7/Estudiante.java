@@ -101,9 +101,17 @@ public class Estudiante {
     }
 
     // Métodos adicionales
-    public static void presentarse(){
+    public void presentarse(){
         System.out.println("Hola soy " + nombre + " " + apellidos);
     }
 
+    @Override
+    public String toString(){
+        return "Nombre: " + this.nombre + "\nApellidos: " + apellidos + "\nNum de Cuenta: " + numDeCuenta;
+    }
+
+    public boolean equals(Estudiante estudiante){
+        return this.numDeCuenta.equals(estudiante.numDeCuenta);
+    }
 
 }
